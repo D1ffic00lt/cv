@@ -1,12 +1,19 @@
 \documentclass[10pt,a4paper]{article}
 \pagestyle{empty}
-\usepackage[utf8]{inputenc}
+\usepackage{iftex}
+\ifPDFTeX
+    \usepackage[utf8]{inputenc}
+\else
+    \usepackage{fontspec}
+    \usepackage{libertinus}
+    \setlength{\emergencystretch}{2em}
+\fi
 \usepackage[russian]{babel}
 \usepackage[a4paper,
             left=1.25cm,
             right=1.25cm,
-            top=1.5cm,
-            bottom=1.5cm,
+            top=1cm,
+            bottom=1cm,
             columnsep=1.2cm]{geometry}
 \usepackage{ragged2e} 
 \usepackage[
