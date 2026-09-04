@@ -1,8 +1,4 @@
-# CV
-
-Russian and English versions of Dmitry Filinov's CV.
-
-## Build
+# Build
 
 Both PDFs can be rebuilt with:
 
