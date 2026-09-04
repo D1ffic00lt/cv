@@ -5,8 +5,8 @@
 \usepackage[a4paper,
             left=1.25cm,
             right=1.25cm,
-            top=1.5cm,
-            bottom=1.5cm,
+            top=1cm,
+            bottom=1cm,
             columnsep=1.2cm]{geometry}
 \usepackage{ragged2e} 
 \usepackage[
@@ -17,6 +17,7 @@
 ]{hyperref}
 \usepackage{enumitem}
 \usepackage{tabularx}
+\setlength{\emergencystretch}{2em}
 
 
 \newcommand{\sechead}[1]{%
@@ -28,6 +29,10 @@
 \newenvironment{indentedsec}
   {\begingroup\setlength{\leftskip}{2em}}
   {\par\endgroup}
+
+\newenvironment{cvitems}
+  {\begin{itemize}[leftmargin=2.5em,labelsep=0.7em,itemsep=1pt,topsep=5pt,parsep=0pt,partopsep=0pt]\small}
+  {\end{itemize}}
   
 \begin{document}
 
