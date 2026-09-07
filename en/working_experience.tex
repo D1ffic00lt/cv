@@ -4,13 +4,11 @@
 
 \textit{Machine Learning Intern}
 \begin{cvitems}
-    \item \textbf{Alert Investigator:} developed an LLM agent for automatically investigating product metric regressions by analyzing problematic dialogues, identifying patterns, clustering cases, and testing root-cause hypotheses.
-    \item \textbf{Response success evaluation:} improved an LLM model for evaluating user success by adding and validating new behavioral signals.
-    \item \textbf{Alerts:} developed a system for detecting product metric regressions through statistical comparison of time periods.
-    \item \textbf{Language classifier:} prototyped a model, built a quality evaluation dataset, and prepared a data pool for distillation.
-    \item \textbf{Data pipelines:} wrote YQL/YT pipelines for processing product logs, calculating retention, and analyzing traffic.
-    \item \textbf{Product analytics:} built data marts and dashboards in DataLens for monitoring product metrics.
-    \item \textbf{Experimentation:} integrated the user success metric into A/B tests to evaluate product changes.
+    \item \textbf{Alerts and Alert Investigator:} independently implemented and deployed a statistical alerting system and an LLM agent for automatically investigating product metric changes. The agent analyzes problematic dialogues, identifies patterns, clusters cases, and tests hypotheses. The team uses it to narrow the scope of manual investigation.
+    \item \textbf{Success metric:} integrated an LLM-based metric into A/B testing, making it available to agent developers for evaluating product changes. Adapted the metric calculation for additional user scenarios.
+    \item \textbf{Success model development:} ran offline experiments to improve success evaluation quality. Tested hypotheses about using additional context and compared prompt variants.
+    \item \textbf{Language classifier:} developed a prototype and handed it over to agent developers. Evaluated its quality and analyzed errors. Built a data preparation pipeline for distillation.
+    \item \textbf{Product analytics:} built a DataLens dashboard to analyze the relationship between response time and user behavior. Prepared the data and automated recurring metric calculations. Provided analytical breakdowns to several product teams. Agent teams used the data when discussing response latency.
 \end{cvitems}
 
 \textbf{State of Children LLC} \hfill \emph{09.2023 -- 01.2024}
